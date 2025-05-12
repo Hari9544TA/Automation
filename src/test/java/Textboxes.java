@@ -15,7 +15,7 @@ public class Textboxes {
         driver.findElement(By.name("j_idt88:name")).sendKeys("Hariharan R");
         driver.findElement(By.name("j_idt88:j_idt91")).sendKeys("  Yes");
         WebElement disablebox =driver.findElement(By.name("j_idt88:j_idt91"));
-        String value=disablebox.getAttribute("aria-disabled");
+       String value=disablebox.getAttribute("aria-disabled");
         System.out.println(value);
         WebElement text= driver.findElement(By.name("j_idt88:j_idt95"));
       text.clear();
